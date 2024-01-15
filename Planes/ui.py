@@ -1,6 +1,6 @@
 import copy
 
-from Service.service import Services, TestData
+from service import Services, TestData
 
 
 def place_planes(game: Services):

@@ -1,4 +1,4 @@
-from domain.board import Board
+from Planes.board import Board
 
 
 class Game:
@@ -32,4 +32,3 @@ class Game:
             if self.__user_board.add_plane(upper_left_corner, plane_number, plane_position):
                 return True
         return False
-

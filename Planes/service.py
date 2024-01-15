@@ -1,5 +1,5 @@
 import random
-from Game.game import Game
+from Planes.game import Game
 
 
 class Services:

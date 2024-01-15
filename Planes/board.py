@@ -1,5 +1,5 @@
 import copy
-from domain.plane import Plane
+from plane import Plane
 
 
 class Board:
@@ -89,7 +89,7 @@ class Board:
                 elif self.__game[target[0]][target[1]] == 0:
                     self.__game[target[0]][target[1]] = '#'
             else:
-                raise ValueError("Target was already shot")
+                raise ValueError()
 
 
     def plane_is_destroyed(self, plane_hit):
