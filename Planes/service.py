@@ -23,7 +23,6 @@ class Services:
         for _ in range(2, 10):
             if isinstance(self.__game.user_board[line][_], int):
                 if self.__game.user_board[line][_] >= 0:
-                    print(str("B"+str(_)))
                     return str("B"+str(_))
         column = 9
         for _ in range(2, 10):
@@ -95,7 +94,6 @@ class Services:
 
     def hit_user(self):
         target = self.find_a_target()
-        print(target, type(target))
         self.__game.hit_board(1, target)
 
     # user Service
